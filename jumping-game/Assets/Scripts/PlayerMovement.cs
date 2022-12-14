@@ -41,6 +41,5 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(-movementSpeed * Time.deltaTime, 0, 0);
         }
-        Debug.Log("world");
     }
 }
